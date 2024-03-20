@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Document</title>
+    <style>
+        /* Internal CSS for demonstration */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blue;">Welcome to My Website</h1>
+    <p>This is a <span class="highlight" style="text-decoration: underline;">simple</span> HTML document.</p>
+    <img src="example.jpg" alt="Example Image" style="width: 200px; height: auto;">
+    
+    <ul>
+        <li><a href="#" style="text-decoration: none;">Link 1</a></li>
+        <li><a href="#" style="text-decoration: none;">Link 2</a></li>
+        <li><a href="#" style="text-decoration: none;">Link 3</a></li>
+    </ul>
+    
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" style="border: 1px solid black;">
+        <input type="submit" value="Submit" style="background-color: green; color: white;">
+    </form>
+</body>
+</html>

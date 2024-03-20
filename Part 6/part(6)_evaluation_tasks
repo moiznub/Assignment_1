@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotations in HTML</title>
+</head>
+<body>
+
+    <header>
+        <h1>Exploring the Wisdom of the Ages</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Quotes</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main-content">
+        <h2>Inspirational Quotes</h2>
+        
+        <article>
+            <blockquote>
+                "The only way to do great work is to love what you do."
+                <footer>- Steve Jobs</footer>
+            </blockquote>
+            <p>
+                In this quote, Steve Jobs emphasizes the importance of passion and dedication in achieving excellence.
+            </p>
+        </article>
+        
+        <article>
+            <blockquote>
+                "Success is not final, failure is not fatal: It is the courage to continue that counts."
+                <footer>- Winston Churchill</footer>
+            </blockquote>
+            <p>
+                Winston Churchill's words remind us that setbacks and triumphs are both part of the journey, and it's our resilience that defines our success.
+            </p>
+        </article>
+        
+        <article>
+            <blockquote>
+                "In the end, we will remember not the words of our enemies, but the silence of our friends."
+                <footer>- Martin Luther King Jr.</footer>
+            </blockquote>
+            <p>
+                Martin Luther King Jr. highlights the importance of solidarity and support in times of adversity, urging us to stand up for what is right.
+            </p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wisdom Quotes. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements with Inline Styling</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; padding: 20px;">
+
+    <h1 style="color: #333; text-align: center;">Hyperlinks, Tables, and Forms</h1>
+    
+    <!-- Hyperlink -->
+    <p style="font-size: 18px; text-align: center;">
+        <a href="https://www.example.com" style="color: blue; text-decoration: none;">
+            Visit Example.com
+        </a>
+    </p>
+    
+    <!-- Table with Inline Styling -->
+    <table border="1" cellpadding="10" cellspacing="0" style="margin: 0 auto;">
+        <caption style="font-size: 16px; font-weight: bold; text-align: center;">Student Grades</caption>
+        <thead>
+            <tr>
+                <th style="background-color: #ccc;">Student</th>
+                <th style="background-color: #ccc;">Subject</th>
+                <th style="background-color: #ccc;">Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Moiz</td>
+                <td>Math</td>
+                <td style="text-align: center;">A</td>
+            </tr>
+            <tr>
+                <td>Ahsan</td>
+                <td>Science</td>
+                <td style="text-align: center;">B+</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <!-- Form with Inline Styling -->
+    <form action="#" method="POST" style="margin-top: 20px; text-align: center;">
+        <label for="username" style="display: block;">Username:</label>
+        <input type="text" id="username" name="username" style="padding: 5px; margin-bottom: 10px; width: 200px;">
+        <br>
+        <label for="password" style="display: block;">Password:</label>
+        <input type="password" id="password" name="password" style="padding: 5px; margin-bottom: 10px; width: 200px;">
+        <br>
+        <input type="submit" value="Login" style="padding: 10px 20px; background-color: #007bff; color: #fff; border: none; cursor: pointer;">
+    </form>
+
+</body>
+</html>
